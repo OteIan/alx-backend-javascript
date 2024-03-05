@@ -1,8 +1,6 @@
 # 0x00. ES6 Basics
 **`Javscript`** **`ES6`**
 
-![meme](./images/meme1.png)
-
 ## Resources
 **Read or watch:**
 
@@ -672,8 +670,6 @@ Sylvie
 bob@dylan:~$
 ```
 
-solution - [100-createIteratorObject.js](./100-createIteratorObject.js)
-
 ### 14. Iterate through object
 
 Finally, write a function named `iterateThroughObject`. The function’s parameter `reportWithIterator` is the return value from createIteratorObject.
@@ -742,5 +738,3 @@ bob@dylan:~$ npm run dev 101-main.js
 Bob | Jane | Sylvie
 bob@dylan:~$
 ```
-
-solution = [101-iterateThroughObject.js](./101-iterateThroughObject.js)
