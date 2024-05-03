@@ -70,7 +70,7 @@ app.get('/students', (req, res) => {
       const text = response.join('\n');
       res.setHeader('Content-Type', 'text/plain');
       res.setHeader('Content-Length', text.length);
-      res.statusCode = 500;
+      res.statusCode = 200;
       res.write(Buffer.from(text));
     });
 });
